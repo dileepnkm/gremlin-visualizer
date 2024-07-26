@@ -8,7 +8,7 @@
   "node": "16.x"
    },
   "scripts": {
-  "start": "export NODE_OPTIONS=--openssl-legacy-provider && ng serve" // use set instead of export in case of windows machine
+  "start": "export NODE_OPTIONS=--openssl-legacy-provider && ng serve" 
   },
   "dependencies": {
     "@material-ui/core": "^4.7.0",
