@@ -6,7 +6,7 @@ RUN npm cache clean --force && \
 	wget --no-check-certificate https://github.com/prabushitha/gremlin-visualizer/archive/master.zip && \
 	unzip master.zip && \
 	cd gremlin-visualizer-master && \
-	npm install
+	npm install && \
  	npm audit fix --force
 
 EXPOSE 3000 3001
