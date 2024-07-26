@@ -7,6 +7,7 @@ RUN npm cache clean --force && \
 	unzip master.zip && \
 	cd gremlin-visualizer-master && \
 	npm install
+ 	npm audit fix --force
 
 EXPOSE 3000 3001
 
