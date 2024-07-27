@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - networkapp2
+name: Build and deploy Node.js app to Azure Web App - cloudmiga
 
 on:
   push:
@@ -65,7 +65,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'networkapp2'
+          app-name: 'cloudmiga'
           slot-name: 'Production'
           package: .
           
